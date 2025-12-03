@@ -26,28 +26,28 @@ class MyApp extends StatelessWidget {
         body: SingleChildScrollView(
           child: Column(
             children: [
-              MovieCardListView(movies: [
+              MovieCardListView(title: 'Worst Movies',movies: [
                 Movie(id: '1', title: 'Movie 1', coverUrl: 'https://picsum.photos/250?image=9'),
                 Movie(id: '2', title: 'Movie 2', coverUrl: 'https://picsum.photos/250?image=9'),
                 Movie(id: '2', title: 'Movie 3'),
                 Movie(id: '2', title: 'Movie 4'),
               ]),
-              MovieCardListView(movies: [
+              MovieCardListView(title: 'Movies',movies: [
                 Movie(id: '1', title: 'Movie 1'),
                 Movie(id: '1', title: 'Movie 2'),
               ]),
-              MovieCardListView(movies: [
+              MovieCardListView(title: 'Series',movies: [
                 Movie(id: '1', title: 'Movie 1'),
               ]),
-              MovieCardListView(movies: [
+              MovieCardListView(title: 'Best Movies',movies: [
                 Movie(id: '1', title: 'Movie 1'),
                 Movie(id: '1', title: 'Movie 2'),
                 Movie(id: '1', title: 'Movie 3'),
               ]),
-              MovieCardListView(movies: [
+              MovieCardListView(title: 'Best Movies',movies: [
                 Movie(id: '1', title: 'Movie 1'),
               ]),
-              MovieCardListView(movies: [
+              MovieCardListView(title: 'Best Movies',movies: [
                 Movie(id: '1', title: 'Movie 1'),
               ]),
             ],
